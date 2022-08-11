@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 1000vh;
+}
+.banner1{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    background: url("./img/Rectangle\ \(19\).png") no-repeat center/cover;
+}
+.navbar1{
+    width: 100%;
+    height: 80px;
+    padding-left: 40px;
+    padding-top: 25px;
+    display: flex;
+}
+.title{
+    color: #FFFFFF;
+}
+.collection{
+    display: flex;
+    list-style: none;
+    margin-left: 300px;
+    margin-top: 8px;
+}
+.item{
+    margin-left: 44px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+.img1{
+    width: 10px;
+    height: 5px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+.btn1{
+    color: #FFFFFF;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    width: 70px;
+    height: 38px;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+.btn2{
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #0C4A34;
+    width: 140px;
+    height: 38px;
+    border: none;
+    margin-left: 15px;
+    border-radius: 4px;
+}
+.alma{
+    font-size: 54px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    width: 790px;
+    margin-left: 220px;
+    margin-top: 100px;
+}
+.btn3{
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #0C4A34;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 510px;
+    margin-top: 30px;
+}
+.want{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 430px;
+    margin-top: 100px;
+}
+.client{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 600px;
+    margin-top: -17px;
+}
+.banner1 i{
+    color: #FFFFFF;
+    margin-left: 770px;
+    display: block;
+    margin-top: -17px;
+}
+.form_inner{
+    width: 300px;
+    height: 200px;
+    background-color: #497557;
+    margin-left: 900px;
+    margin-top: -200px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.subscribe{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.get{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.btn4{
+    width: 88px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+}
+.banner2{
+    width: 90%;
+    margin: auto;
+    height: 100px;
+    background-color: #E5E5E5;
+    align-items: center;
+    display: flex;
+    padding-left: 50px;
+}
+.find{
+    width: 150px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5B5855;
+}
+.images{
+    width: 120px;
+    height: 60px;
+    margin-left: 45px;
+}
+.banner3{
+    width: 90%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.205);
+    margin: auto;
+    display: flex;
+}
+.banner3_text{
+    width: 50%;
+    height: 500px;
+    padding-left: 60px;
+}
+.why{
+    font-size: 16px;
+    font-weight: 400;
+    color: #497557;
+    padding-top: 55px;
+}
+.simple{
+    width: 333px;
+    font-size: 38px;
+    font-weight: 400;
+    color: #02291C;
+    margin-top: 15px;
+}
+.easy{
+    width: 415px;
+    height: 155px;
+    background-color: #DCE3DD;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.use{
+    font-size: 20px;
+    font-weight: 400;
+    color: #02291C;
+    margin-left: 30px;
+    margin-top: -23px;
+}
+.long{
+    font-size: 18px;
+    font-weight: 400;
+    color: #5B5855;
+    width: 300px;
+    line-height: 25px;
+}
+.free{
+    width: 415px;
+    height: 68px;
+    background-color: #F9F9F7;
+    border-radius: 4px;
+    margin-top: 13px;
+    padding-left: 20px;
+    padding-top: 23px;
+}
+.match{
+    font-size: 20px;
+    font-weight: 400;
+    color: #02291C;
+    margin-left: 30px;
+    margin-top: -25px;
+}
+.in{
+    width: 415px;
+    height: 68px;
+    background-color: #F9F9F7;
+    border-radius: 4px;
+    margin-top: 13px;
+    padding-top: 23px;
+    padding-left: 20px;
+}
+.person{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: -25px;
+}
+.big_one{
+    width: 600px;
+    height: 520px;
+}
+.banner3_img{
+    padding-top: 50px;
+    padding-right: 30px;
+}
+.banner4{
+    width: 90%;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.205);
+    margin: auto;
+    padding-top: 25px;
+}
+.network{
+    font-size: 38px;
+    font-weight: 400;
+    color: #02291C;
+    text-align: center;
+    width: 500px;
+    margin-left: 370px;
+}
+.provider{
+    width: 490px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5B5855;
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 375px;
+}
+.directory{
+    width: 171px;
+    height: 50px;
+    background-color: #0C4A34;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.work{
+    width: 138px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0C4A34;
+    text-align: center;
+    border-radius: 4px;
+}
+.banner5{
+    width: 90%;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.205);
+    margin: auto;
+    display: flex;
+}
+.banner5_images{
+    width: 50%;
+    height: 100%;
+}
+.banner5_images2{
+    width: 50%;
+    height: 100%;
+}
+.img100{
+    height: 250px;
+    margin-left: 14px;
+}
+.img200{
+    width: 350px;
+    height: 280px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.img300{
+    height: 280px;
+    width: 210px;
+    margin-left: 10px;
+}
+.img400{
+    width: 340px;
+    height: 340px;
+}
+.img500{
+    display: block;
+    height: 200px;
+}
+.img600{
+    margin-left: 184px;
+    width: 160px;
+    height: 200px;
+    margin-top: -200px;
+    display: block;
+}
+.img700{
+    margin-left: 360px;
+    display: block;
+    margin-top: -543px;
+}
+.img800{
+    height: 240px;
+    display: block;
+    width: 235px;
+    margin-top: 10px;
+    margin-left: 360px;
+}
+.banner6{
+    width: 90%;
+    height: 280px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.205);   
+    padding-top: 50px;
+    padding-left: 230px;
+}
+.experience{
+    width: 750px;
+    line-height: 35px;
+    font-size: 27px;
+    font-weight: 400;
+}
+.erick{
+    font-size: 18px;
+    font-weight: 400;
+    color: #5B5855;
+    margin-top: 20px;
+}
+.read{
+    font-size: 18px;
+    font-weight: 400;
+    color: #5B5855;
+}

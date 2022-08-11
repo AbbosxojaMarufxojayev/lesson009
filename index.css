@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    color: dodgerblue;
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    border: 2px solid red;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 300px;
+    height: 200px;
+    border: 3px solid blue;
+}
+.main{
+    width: 80%;
+    height: 500px;
+    margin: 30px auto;
+    border: 2px solid red;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    /* display: block; */
+    display: inline-block;
+
+}
+.span{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+
+    /* display: inline; */
+    display: inline-block;
+
+}
+.hidden{
+    width: 200px;
+    height: 100px;
+    background: red;
+    display: none;
+}
